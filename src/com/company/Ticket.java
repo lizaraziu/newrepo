@@ -10,17 +10,16 @@ public class Ticket {
 
     public void setNumber(int number) {
         this.number = number;
-
-        if(number % 19 == 0){
-
-            System.out.println("You Won!");
-
-        }else{
-            System.out.println("No this time :(");
-        }
     }
 
 
+       public boolean isLucky(){
+        return (number % 19 ) == 0;
 
+
+    }
 }
+
+
+
 

@@ -1,8 +1,8 @@
 package com.company;
 
-public class Mama {
+public class Sasa {
 
     public static void main(String[] args) {
-
+        System.out.println("zazaza");
     }
 }
